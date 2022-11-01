@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <TextView android:id="@+id/tvId_lista"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="05dp"
+        android:textColor="#000000"
+        android:hint="@string/txtId"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        />
+
+    <TextView android:id="@+id/tvName_lista"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="05dp"
+        android:hint="@string/txtNom"
+        android:textColor="#000000"
+        android:textSize="22sp"
+        />
+    <TextView android:id="@+id/tvPaterno_lista"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="05dp"
+        android:hint="@string/txtApe"
+        android:textColor="#000000"
+        android:textSize="22sp"
+        />
+    <TextView android:id="@+id/tvNit_lista"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="05dp"
+        android:hint="@string/txtNit"
+        android:textColor="#000000"
+        android:textSize="22sp"
+        />
+
+    <TextView
+        android:id="@+id/tvCellphone_lista"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="05dp"
+        android:hint="@string/txtTelef"
+        android:textColor="#000000"
+        android:textSize="22sp" />
+</LinearLayout>

@@ -1,0 +1,21 @@
+<resources>
+    <string name="titulo_actividad_configuracion">Configuración</string>
+
+    <string name="categoria_notificaciones">Notificaciones</string>
+
+    <string name="titulo_preferencia">Frecuencia de notificaciones por correo</string>
+    <string name="key_preferencia">lista_frecuencias</string>
+    <string-array name="lista_frecuencia">
+        <item>Una notificacion por hora</item>
+        <item>Una notificacion cada 2 horas</item>
+        <item>Una notificacion cada 3 horas</item>
+        <item>Una notificacion cada 4 horas</item>
+    </string-array>
+    <string-array name="lista_valores_frecuencia">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+</resources>

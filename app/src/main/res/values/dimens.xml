@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--TODO: reordenar o modificar dimensiones -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="activity_margin">16dp</dimen>
+
+    <dimen name="imagen_size">150dp</dimen>
+    <dimen name="size_fab">56dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="table_margin">5dp</dimen>
+    <dimen name="nav_vertical_margin">10dp</dimen>
+    <dimen name="nav_horizontal_margin">10dp</dimen>
+
+    <dimen name="nav_textSize">12dp</dimen>
+    <dimen name="avi_textSize">15dp</dimen>
+    <dimen name="avi_btntxtSize">9dp</dimen>
+
+    <dimen name="frag_textSize">32dp</dimen>
+    <dimen name="fragment_text_size">30sp</dimen>
+    <dimen name="text_size_titulo"> 22dp</dimen>
+    <dimen name="text_size_contenido"> 16dp</dimen>
+
+    <dimen name="imagen_margin">150dp</dimen>
+    <dimen name="button_margin">5dp</dimen>
+    <dimen name="button_vertical">60dp </dimen>
+    <dimen name="button_horizontal">150dp </dimen>
+    <dimen name="nav_header_top_bottom">5dp</dimen>
+
+
+
+
+
+
+
+
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/tab_cliente"
+        android:enabled="true"
+        android:title="@string/lblClients"
+        app:showAsAction="ifRoom"
+        />
+
+    <item
+        android:id="@+id/tab_mapa"
+        android:enabled="true"
+        android:title="@string/lblMap"
+        app:showAsAction="ifRoom"
+        />
+
+
+</menu>

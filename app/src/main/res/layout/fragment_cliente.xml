@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_consultar_usuarios"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".fragments.ClienteFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <EditText
+            android:id="@+id/cId"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:hint="@string/txt_id"
+            android:layout_weight="0.93"  />
+
+        <Button
+            android:id="@+id/btnConsultar"
+            android:layout_width="110dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="10dp"
+            android:text="@string/buscar_usu" />
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/campoNombreConsulta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/txt_nombre"/>
+
+    <EditText
+        android:id="@+id/campoApellidoConsulta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/txt_apellido"/>
+
+    <EditText
+        android:id="@+id/campoNitConsulta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/txt_nit"/>
+
+    <EditText
+        android:id="@+id/campoTelefonoConsulta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/txt_telefono"/>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:weightSum="1">
+
+        <Button
+            android:id="@+id/btnEliminar"
+            android:layout_width="110dp"
+            android:layout_height="60dp"
+            android:text="@string/eliminar_usu"
+            android:textSize="12dp"
+            />
+
+        <View
+        android:layout_width="8dp"
+        android:layout_height="match_parent"
+            />
+
+        <Button
+            android:id="@+id/btnActualizar"
+            android:layout_width="110dp"
+            android:layout_height="60dp"
+            android:text="@string/actualizar_usu"
+            android:textSize="11dp"
+            />
+
+        <View
+            android:layout_width="8dp"
+            android:layout_height="match_parent"
+            />
+
+        <Button
+            android:id="@+id/btnRegistrar"
+            android:layout_width="110dp"
+            android:layout_height="60dp"
+            android:text="@string/registrar_usu"
+            android:textSize="12dp"
+            />
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/listViewClientes"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/activity_margin"/>
+</LinearLayout>
+
+
+
+

@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">F.S.R.L</string>
+
+    <!-- TODO: Remover o cambiar  -->
+    <string name="welcome">Bienvenid@: </string>
+    <string name="etUsuario">Usuario</string>
+    <string name="etPassword">Password</string>
+    <string name="aviso1">Por favor ingrese su Usuario y Contraseña </string>
+    <string name="aviso2">Ingrese su Usuario y Contraseña correctamente</string>
+
+    <string name="nav_drawer_open">Drawer Abierto</string>
+    <string name="nav_drawer_close">Drawer Cerrado</string>
+    <string name="menuPreventa">Pre Venta</string>
+    <string name="menuMetas">Metas</string>
+    <string name="menuCSesion">Cerrar Sesión</string>
+
+    <string name="fragPreventa">Pre Venta!!</string>
+    <string name="fragMetas">Metas!!</string>
+
+    <string name="lblClients">Clientes</string>
+    <string name="lblMap">Mapa</string>
+
+    <string name="lbl_usuario">Ingrese su Usuario</string>
+    <string name="lbl_password">Ingrese su contraseña</string>
+
+    <string name="lbl_login">Iniciar Sesión</string>
+    <string name="lbl_logout">Cerrar Sesión</string>
+
+    <string name="titulo_tab_Cliente">CLIENTE</string>
+    <string name="titulo_tab_Mapa">MAPA</string>
+    <string name="menuConfiguracion">Configuración</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_click">Click</string>
+
+
+    //////////////////////////////////////////////
+    <string name="titulo_actividad_preventa">Preventa</string>
+    //////////////////////////////////////////////
+    <string name="titulo_actividad_metas">Metas</string>
+    ///////////////////////////////////////////////
+    <string name="btnDiAceptar">Aceptar</string>
+    <string name="btnDiCancelar">Cancelar</string>
+    <string name="cSesionMsj">¿Quiere finalizar la Sesión?</string>
+    <string name="aviso3">AVISO</string>
+    <string name="aviso3_c">¿Usted desea Cerrar Sesion?</string>
+    ////////////////////////////////////////////
+    <string name="registro_de_usuarios">REGISTRO DE USUARIOS</string>
+    <string name="txt_id">Ingrese el id</string>
+    <string name="txt_nombre">Ingrese el nombre</string>
+    <string name="txt_apellido">Ingrese los apellidos</string>
+    <string name="txt_nit">Ingrese el NIT</string>
+    <string name="txt_telefono">Ingrese el telefono</string>
+    <string name="txtId">ID:</string>
+    <string name="txtNom">Nombre:</string>
+    <string name="txtApe">Apellidos:</string>
+    <string name="txtNit">NIT:</string>
+    <string name="txtTelef">Telefono:</string>
+    <string name="buscar_usu">Buscar</string>
+    <string name="eliminar_usu">Eliminar</string>
+    <string name="actualizar_usu">Actualizar</string>
+    <string name="registrar_usu">Registrar</string>
+    <string name="lista_usu">Lista de Usuarios</string>
+    <string name="cmb_opcion">Seleccione una Opción</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="aceptar">Aceptar</string>
+
+
+</resources>
