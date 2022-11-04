@@ -6,7 +6,7 @@
 
     <group
         android:id="@+id/group1"
-        android:checkableBehavior="single">>
+        android:checkableBehavior="single">
         <item
             android:id="@+id/nav_preventa"
             android:title="@string/menuPreventa"
@@ -15,10 +15,15 @@
             android:id="@+id/nav_metas"
             android:title="@string/menuMetas"
             android:icon="@mipmap/ic_metas"/>
+        <item
+            android:id="@+id/nav_mapa"
+            android:title="@string/menuMapa"
+            android:icon="@mipmap/ic_mapa"
+            />
     </group>
     <group
         android:id="@+id/group2"
-        android:checkableBehavior="single">>
+        android:checkableBehavior="single">
         <item
             android:id="@+id/nav_configuracion"
             android:title="@string/menuConfiguracion"

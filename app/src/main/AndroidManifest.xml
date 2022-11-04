@@ -14,7 +14,22 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.FSRL">
-        <activity android:name=".MenuPrincipalActivity"/>
+        <activity android:name=".RutasActivity"
+            android:label="@string/titulo_actividad_rutas"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity android:name=".MenuPrincipalActivity" />
+        <activity
+            android:name=".MapaUbiActivity"
+            android:label="@string/titulo_actividad_mapa"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
         <activity
             android:name=".ConfiguracionActivity"
             android:label="@string/titulo_actividad_configuracion"
@@ -27,16 +42,13 @@
             android:name=".MetasActivity"
             android:label="@string/titulo_actividad_metas"
             android:parentActivityName=".MainActivity">
-        <meta-data
-            android:name="android.support.PARENT_ACTIVITY"
-            android:value=".MainActivity" />
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
         </activity>
         <activity
             android:name=".PreventaActivity"
-            android:label="@string/titulo_actividad_preventa"
-            >
-
-        </activity>
+            android:label="@string/titulo_actividad_preventa"/>
         <activity android:name=".LoginActivity" />
         <activity
             android:name=".SplashActivity"
@@ -47,13 +59,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity"
-            android:theme="@style/Theme.ConNavigationDrawer"
-            android:exported="false"/>
+        <activity
+            android:name=".MainActivity"
+            android:exported="false"
+            android:theme="@style/Theme.ConNavigationDrawer" />
+
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="@string/google_maps_key" />
-
         <meta-data
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />

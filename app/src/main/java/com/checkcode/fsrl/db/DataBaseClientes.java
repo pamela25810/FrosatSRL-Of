@@ -11,12 +11,12 @@ import com.dacorp.database.event.DataBaseListener;
 
 import java.io.File;
 
-public class DataBaseVentas extends ConectorDB {
+public class DataBaseClientes extends ConectorDB {
 
-    public DataBaseVentas(Context context) {
+    public DataBaseClientes(Context context) {
         super(context, new Configuration(context.getDir("database",
                 Context.MODE_PRIVATE).getAbsolutePath()
-                        + File.separator + "DbVentas.sqlitle"),
+                        + File.separator + "DbClientes.sqlitle"),
                 new DataBaseListener() {
                     @Override
                     public void createTables(SQLiteDatabase sqliteDatabase) {

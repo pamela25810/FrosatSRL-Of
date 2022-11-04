@@ -57,7 +57,8 @@ public class PreventaFragment extends Fragment {
     private void poblarViewPager(ViewPager viewPager) {
         AdaptadorSecciones adapter = new AdaptadorSecciones(getFragmentManager());
         adapter.addFragment(new ClienteFragment(), getString(R.string.titulo_tab_Cliente));
-        adapter.addFragment(new MapsFragment(), getString(R.string.titulo_tab_Mapa));
+        //adapter.addFragment(new MapsFragment(), getString(R.string.titulo_tab_Mapa));
+        adapter.addFragment(new ProductoFragment(), getString(R.string.titulo_tab_Producto));
         viewPager.setAdapter(adapter);
     }
 

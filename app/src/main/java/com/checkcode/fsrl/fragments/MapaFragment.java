@@ -80,7 +80,7 @@ public class MapaFragment
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.fragment_mapa, container, false);
 
-        mMapView = (MapView) rootView.findViewById(R.id.mapa);
+        mMapView = (MapView) rootView.findViewById(R.id.mapita);
         mMapView.onCreate(savedInstanceState);
         mMapView.onResume();
 

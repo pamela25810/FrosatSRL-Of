@@ -16,7 +16,6 @@ import android.preference.PreferenceFragment;
 
 import com.checkcode.fsrl.fragments.ClienteFragment;
 import com.checkcode.fsrl.fragments.MapaFragment;
-import com.checkcode.fsrl.fragments.MapsFragment;
 import com.google.android.material.tabs.TabLayout;
 
 import java.util.ArrayList;
@@ -43,7 +42,7 @@ public class PreventaActivity extends AppCompatActivity {
 
         VPAdapter vpAdapter= new VPAdapter(getSupportFragmentManager(), FragmentPagerAdapter.BEHAVIOR_RESUME_ONLY_CURRENT_FRAGMENT);
         vpAdapter.addFragment(new ClienteFragment(),"Clientes");
-        vpAdapter.addFragment(new MapsFragment(),"Mapa");
+        //vpAdapter.addFragment(new MapaFragment(),"Mapa");
         viewPager.setAdapter(vpAdapter);
     }
 

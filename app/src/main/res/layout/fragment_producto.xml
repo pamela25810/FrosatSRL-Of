@@ -10,7 +10,7 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     android:orientation="vertical"
     android:gravity="center"
-    tools:context=".fragments.ClienteFragment">
+    tools:context=".fragments.ProductoFragment">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -19,14 +19,14 @@
         android:weightSum="1">
 
         <EditText
-            android:id="@+id/cId"
+            android:id="@+id/cIdP"
             android:layout_height="wrap_content"
             android:layout_width="0dp"
             android:hint="@string/txt_id"
             android:layout_weight="0.93"  />
 
         <Button
-            android:id="@+id/btnConsultar"
+            android:id="@+id/btnConsultarP"
             android:layout_width="110dp"
             android:layout_height="60dp"
             android:layout_marginStart="10dp"
@@ -35,28 +35,28 @@
     </LinearLayout>
 
     <EditText
-        android:id="@+id/campoNombreConsulta"
+        android:id="@+id/campoNombreProducto"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="@string/txt_nombre"/>
+        android:hint="@string/txt_nombrePro"/>
 
     <EditText
-        android:id="@+id/campoApellidoConsulta"
+        android:id="@+id/campoDetalleProducto"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="@string/txt_apellido"/>
+        android:hint="@string/txt_detallePro"/>
 
     <EditText
-        android:id="@+id/campoNitConsulta"
+        android:id="@+id/campoCantidadProducto"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="@string/txt_nit"/>
+        android:hint="@string/txt_cantidadPro"/>
 
     <EditText
-        android:id="@+id/campoTelefonoConsulta"
+        android:id="@+id/campoStockProducto"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="@string/txt_telefono"/>
+        android:hint="@string/txt_stockPro"/>
 
     <LinearLayout
         android:layout_marginTop="10dp"
@@ -67,7 +67,7 @@
         android:weightSum="1">
 
         <Button
-            android:id="@+id/btnEliminar"
+            android:id="@+id/btnEliminarP"
             android:layout_width="110dp"
             android:layout_height="60dp"
             android:text="@string/btn_eliminar"
@@ -75,12 +75,12 @@
             />
 
         <View
-        android:layout_width="8dp"
-        android:layout_height="match_parent"
+            android:layout_width="8dp"
+            android:layout_height="match_parent"
             />
 
         <Button
-            android:id="@+id/btnActualizar"
+            android:id="@+id/btnActualizarP"
             android:layout_width="110dp"
             android:layout_height="60dp"
             android:text="@string/btn_actualizar"
@@ -93,7 +93,7 @@
             />
 
         <Button
-            android:id="@+id/btnRegistrar"
+            android:id="@+id/btnRegistrarP"
             android:layout_width="110dp"
             android:layout_height="60dp"
             android:text="@string/btn_registrar"
@@ -103,12 +103,8 @@
     </LinearLayout>
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/listViewClientes"
+        android:id="@+id/listViewProducto"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_margin="@dimen/activity_margin"/>
 </LinearLayout>
-
-
-
-

@@ -28,17 +28,22 @@
 
     <string name="titulo_tab_Cliente">CLIENTE</string>
     <string name="titulo_tab_Mapa">MAPA</string>
+    <string name="titulo_tab_Producto">PRODUCTO</string>
     <string name="menuConfiguracion">Configuración</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="title_click">Click</string>
 
 
-    //////////////////////////////////////////////
+    ///////////////////////////////////////////////
     <string name="titulo_actividad_preventa">Preventa</string>
-    //////////////////////////////////////////////
+    ///////////////////////////////////////////////
     <string name="titulo_actividad_metas">Metas</string>
     ///////////////////////////////////////////////
+    <string name="titulo_actividad_mapa">Mapa</string>
+    ///////////////////////////////////////////////
+    <string name="titulo_actividad_rutas">Rutas</string>
+    /////////////////////////////////////////////
     <string name="btnDiAceptar">Aceptar</string>
     <string name="btnDiCancelar">Cancelar</string>
     <string name="cSesionMsj">¿Quiere finalizar la Sesión?</string>
@@ -56,14 +61,20 @@
     <string name="txtApe">Apellidos:</string>
     <string name="txtNit">NIT:</string>
     <string name="txtTelef">Telefono:</string>
-    <string name="buscar_usu">Buscar</string>
-    <string name="eliminar_usu">Eliminar</string>
-    <string name="actualizar_usu">Actualizar</string>
-    <string name="registrar_usu">Registrar</string>
-    <string name="lista_usu">Lista de Usuarios</string>
+    <string name="btn_buscar">Buscar</string>
+    <string name="btn_eliminar">Eliminar</string>
+    <string name="btn_actualizar">Actualizar</string>
+    <string name="btn_registrar">Registrar</string>
+    <string name="lista_cliente">Lista de Cliente</string>
+    <string name="lista_producto">Lista de Producto</string>
     <string name="cmb_opcion">Seleccione una Opción</string>
     <string name="cancelar">Cancelar</string>
     <string name="aceptar">Aceptar</string>
+    <string name="menuMapa">Mapa</string>
+    <string name="txt_nombrePro">Nombre del Producto</string>
+    <string name="txt_detallePro">Detalle del Producto</string>
+    <string name="txt_cantidadPro">Cantidad del Producto</string>
+    <string name="txt_stockPro">Stock del Producto</string>
 
 
 </resources>

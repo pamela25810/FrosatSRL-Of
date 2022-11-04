@@ -4,7 +4,8 @@ import android.content.Context;
 import android.util.Log;
 
 import com.checkcode.fsrl.db.Cliente;
-import com.checkcode.fsrl.db.DataBaseVentas;
+import com.checkcode.fsrl.db.DataBaseClientes;
+
 
 import com.dacorp.database.error.EjecutionDBExcepcion;
 import com.dacorp.database.sql.cond.Condition;
@@ -18,7 +19,7 @@ import java.util.List;
 public class ControllerCliente {
 
     public static void InsertarCliente(Context context, int idCliente , String nombreCliente, String appelidoCliente, String nitCliente, String telefonoCliente) {
-        DataBaseVentas data = new DataBaseVentas(context);
+        DataBaseClientes data = new DataBaseClientes(context);
         try {
             data.connect();
             Cliente mCliente,mClienteAnt;
@@ -55,7 +56,7 @@ public class ControllerCliente {
     }
 
     public static void BuscarCliente(Context context, int idCliente ) {
-        DataBaseVentas data = new DataBaseVentas(context);
+        DataBaseClientes data = new DataBaseClientes(context);
         try {
             data.connect();
             Cliente mCliente,mClienteAnt;
@@ -93,8 +94,8 @@ public class ControllerCliente {
 
     }
 
-   /*public static void EliminarCliente(Context context, int idCliente ) {
-        DataBaseVentas data = new DataBaseVentas(context);
+  /* public static void EliminarCliente(Context context, int idCliente ) {
+        DataBaseClientes data = new DataBaseClientes(context);
         try {
             data.connect();
             Cliente mCliente;
@@ -102,7 +103,7 @@ public class ControllerCliente {
             mCliente.setIdCliente(idCliente);
 
            mCliente = data.delete(Cliente.class, new Condition("idCliente='"
-             +mCliente));
+             +mCliente.getIdCliente()));
         }catch (EjecutionDBExcepcion ejecutionDBExcepcion){
             ejecutionDBExcepcion.printStackTrace();
         }
@@ -114,7 +115,7 @@ public class ControllerCliente {
 
     public static List<Cliente> listaClientes(Context context){
         List<Cliente> list = new ArrayList<>();
-        DataBaseVentas data = new DataBaseVentas(context);
+        DataBaseClientes data = new DataBaseClientes(context);
         try {
             data.connect();
             list = data.select(Cliente.class);

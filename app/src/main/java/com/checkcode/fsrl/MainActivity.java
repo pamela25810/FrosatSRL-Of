@@ -130,6 +130,9 @@ public class MainActivity extends AppCompatActivity {
             case R.id.nav_configuracion:
                 startActivity(new Intent(this, ConfiguracionActivity.class));
                 break;
+            case R.id.nav_mapa:
+                startActivity(new Intent(this, RutasActivity.class));
+                break;
             case R.id.nav_csesion:
                 mostrarDialogoPersonal();
                 break;
